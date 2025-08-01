@@ -18,12 +18,12 @@ Deployed here: **[Live Demo →](https://multi-theme-switcher-livid.vercel.app/)
 ![Theme 1 - Mobile](public/screenshots/theme1-mobile.png)
 
 ### Theme 2 – Dark Mode with Sidebar
-![Theme 2 - Desktop](public/screenshots/theme1-desktop.png)
-![Theme 2 - Mobile](public/screenshots/theme1-mobile.png)
+![Theme 2 - Desktop](public/screenshots/theme2-desktop.png)
+![Theme 2 - Mobile](public/screenshots/theme2-mobile.png)
 
 ### Theme 3 – Colorful Playful Grid
-![Theme 3 - Desktop](public/screenshots/theme1-desktop.png)
-![Theme 3 - Mobile](public/screenshots/theme1-mobile.png)
+![Theme 3 - Desktop](public/screenshots/theme3-desktop.png)
+![Theme 3 - Mobile](public/screenshots/theme3-mobile.png)
 
 ---
 
