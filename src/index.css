@@ -11,7 +11,8 @@ body,
 
 .page {
   padding-top: 70px;
-  height: 100vh;
+  padding-bottom: 70px;
+  min-height: 100vh;
 }
 
 /* Light theme css */
