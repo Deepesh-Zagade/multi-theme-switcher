@@ -1,27 +1,25 @@
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+// Package Import
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+// Project Import
 import "./App.css";
 import Home from "./pages/Home";
-import Header from "./components/Header";
 import About from "./pages/About";
 import Error from "./pages/Error";
 import Contact from "./pages/Contact";
+import AppLayout from "./utils/layouts/AppLayout";
 import { ThemeProvider } from "./utils/contexts/ThemeContext";
 
 function App() {
-  const AppLayout = () => {
-    return (
-      <>
-        <ThemeProvider>
-          <Header />
-          <Outlet />
-        </ThemeProvider>
-      </>
-    );
-  };
+
   const appRouter = createBrowserRouter([
     {
       path: "/",
-      element: <AppLayout />,
+      element: (
+        <ThemeProvider>
+          <AppLayout />
+        </ThemeProvider>
+      ),
       children: [
         {
           path: "/",
