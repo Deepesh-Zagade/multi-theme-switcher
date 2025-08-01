@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
 import Product from "../components/Product";
 import Shimmer from "../components/Shimmer";
+import { useTheme } from "../utils/contexts/ThemeContext";
 
 export default function Home() {
+
+  const { theme } = useTheme()
+
   const [productList, setProductList] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -24,7 +28,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="page">
+    <div className={`page ${theme === 'theme2' ? "mt-0" : "mt-40 md:mt-20"}`}>
       {
         loading ? (
           // shimmer UI for loading state

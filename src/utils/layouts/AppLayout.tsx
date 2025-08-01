@@ -14,7 +14,7 @@ const AppLayout = () => {
                 (
                     <>
                         <SideBar />
-                        <div className="ml-[256px] p-6 overflow-auto">
+                        <div className="ml-[128px] md:ml-[256px] p-6 overflow-auto">
                             <Outlet />
                         </div>
                     </>
